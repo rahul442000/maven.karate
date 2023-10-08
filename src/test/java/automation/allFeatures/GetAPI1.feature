@@ -6,7 +6,7 @@ Given url baseUrl+'/public/v1/users'
 And path '1'
 When method GET
 Then status 404
-* print 'Rahul Soni new Smoke' 
+And print response 
 
 @regression
 Scenario: get user details - user not found
@@ -14,4 +14,4 @@ Given url baseUrl+'/public/v1/users'
 And path '1'
 When method GET
 Then status 404
-* print 'Rahul Soni regression' 
+And print response 
