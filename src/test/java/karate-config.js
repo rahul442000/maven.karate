@@ -7,7 +7,7 @@ env = 'dev';
 var config = { 
 env: env, 
 myVarName: 'hello karate', 
-baseUrl: 'https://gorest.co.in',
+baseUrl: 'https://reqres.in/api',
 tokenID: '007526d9efdbc07e084ff7a6d4cfcc90588fbe20641c00faebf45a7f3b2eaf33'
 }
 
